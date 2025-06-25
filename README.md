@@ -61,23 +61,24 @@ Predicting which games will earn a GOTY nomination is complex, as it depends on 
 ## 📁 Project Structure
 
 ```
-goty-candidate-prediction/
-├── data/         # Sample datasets, processed data, data dictionary
-│   └── README.md
-├── models/       # Trained model artifacts or configs (not included)
-│   └── README.md
-├── notebook/     # Jupyter notebook: EDA, modeling pipeline, results
-│   └── goty_prediction.ipynb
-├── reports/      # PDF report, presentation slides, visualizations
-│   ├── goty_report.pdf
-│   └── goty_presentation.pdf
-├── images/       # Plots and figures for results and the README
+## 📁 Project Structure
+
+```
+goty_prediction_model/
+├── notebooks/        # Jupyter notebooks for EDA and modeling
+│   └── goty_prediction_notebook.ipynb
+├── report/           # PDF project report
+│   └── goty_prediction_report.pdf
+├── presentation/     # PowerPoint presentation slides
+│   └── goty_prediction_presentation.pptx
+├── images/           # Plots and figures used in report/presentation
 │   └── (e.g., feature_importance.png)
-├── src/          # Data wrangling, scraping, and feature engineering scripts
-│   └── README.md
-├── requirements.txt  # Python dependencies (optional, for reproducibility)
-├── .gitignore
-└── README.md     # Project overview, usage, and instructions
+└── README.md         # Project overview and instructions
+```
+- All code and analysis are in the `notebooks/` directory.
+- The project report and presentation are in their respective folders.
+- Supporting images are stored in the `images/` folder.
+- No data files are included due to size and licensing constraints.
 ```
 
 ---
